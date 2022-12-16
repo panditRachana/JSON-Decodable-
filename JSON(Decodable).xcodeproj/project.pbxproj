@@ -13,6 +13,13 @@
 		803DD8452948E9540000F2D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803DD8432948E9540000F2D8 /* Main.storyboard */; };
 		803DD8472948E9560000F2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803DD8462948E9560000F2D8 /* Assets.xcassets */; };
 		803DD84A2948E9560000F2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803DD8482948E9560000F2D8 /* LaunchScreen.storyboard */; };
+		803DD8522948E9A20000F2D8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DD8512948E9A20000F2D8 /* SecondViewController.swift */; };
+		803DD8542948EBB30000F2D8 /* Response1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DD8532948EBB30000F2D8 /* Response1.swift */; };
+		807120802949988400A78394 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8071207E2949988400A78394 /* TableViewCell.swift */; };
+		807120812949988400A78394 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8071207F2949988400A78394 /* TableViewCell.xib */; };
+		8071208329499D5100A78394 /* ApiResponse2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8071208229499D5100A78394 /* ApiResponse2.swift */; };
+		807120862949D0A600A78394 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807120842949D0A600A78394 /* CollectionViewCell.swift */; };
+		807120872949D0A600A78394 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807120852949D0A600A78394 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		803DD8462948E9560000F2D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		803DD8492948E9560000F2D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		803DD84B2948E9560000F2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803DD8512948E9A20000F2D8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		803DD8532948EBB30000F2D8 /* Response1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response1.swift; sourceTree = "<group>"; };
+		8071207E2949988400A78394 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8071207F2949988400A78394 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		8071208229499D5100A78394 /* ApiResponse2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse2.swift; sourceTree = "<group>"; };
+		807120842949D0A600A78394 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		807120852949D0A600A78394 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,10 @@
 		803DD8312948E9540000F2D8 = {
 			isa = PBXGroup;
 			children = (
+				807120842949D0A600A78394 /* CollectionViewCell.swift */,
+				807120852949D0A600A78394 /* CollectionViewCell.xib */,
+				8071207E2949988400A78394 /* TableViewCell.swift */,
+				8071207F2949988400A78394 /* TableViewCell.xib */,
 				803DD83C2948E9540000F2D8 /* JSON(Decodable) */,
 				803DD83B2948E9540000F2D8 /* Products */,
 			);
@@ -60,6 +78,9 @@
 				803DD83F2948E9540000F2D8 /* SceneDelegate.swift */,
 				803DD8412948E9540000F2D8 /* ViewController.swift */,
 				803DD8432948E9540000F2D8 /* Main.storyboard */,
+				803DD8532948EBB30000F2D8 /* Response1.swift */,
+				803DD8512948E9A20000F2D8 /* SecondViewController.swift */,
+				8071208229499D5100A78394 /* ApiResponse2.swift */,
 				803DD8462948E9560000F2D8 /* Assets.xcassets */,
 				803DD8482948E9560000F2D8 /* LaunchScreen.storyboard */,
 				803DD84B2948E9560000F2D8 /* Info.plist */,
@@ -126,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				803DD84A2948E9560000F2D8 /* LaunchScreen.storyboard in Resources */,
+				807120812949988400A78394 /* TableViewCell.xib in Resources */,
 				803DD8472948E9560000F2D8 /* Assets.xcassets in Resources */,
 				803DD8452948E9540000F2D8 /* Main.storyboard in Resources */,
+				807120872949D0A600A78394 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803DD8522948E9A20000F2D8 /* SecondViewController.swift in Sources */,
 				803DD8422948E9540000F2D8 /* ViewController.swift in Sources */,
+				807120862949D0A600A78394 /* CollectionViewCell.swift in Sources */,
+				8071208329499D5100A78394 /* ApiResponse2.swift in Sources */,
 				803DD83E2948E9540000F2D8 /* AppDelegate.swift in Sources */,
+				807120802949988400A78394 /* TableViewCell.swift in Sources */,
+				803DD8542948EBB30000F2D8 /* Response1.swift in Sources */,
 				803DD8402948E9540000F2D8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
